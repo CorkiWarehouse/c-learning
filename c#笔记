@@ -1,0 +1,49 @@
+3/19 :
+
+第一天的c#学习：
+
+1. Solution and Project 
+  
+  1) Solution 总的解决方案 (多个solution)
+  2) Project 具体解决某个问题 （具体的技术/模板）
+    甚至可以是多平台的，多种解决方案
+
+2. 第一个程序 Hello World
+
+  1) Console: 多用于内部用户
+    example ： 
+    
+    
+        namespace ConsoleHelloWrold
+      {
+        internal class Program
+        {
+            static void Main(string[] args)
+            {
+
+                Console.WriteLine("Hello, World!");
+            }
+        }
+      }
+  
+  
+  
+  
+  2) Windows Form：
+    创建后我们会有一个窗体，窗体我们可以在其中进行编辑
+    1) 我们要先进入view 去打开tool box， 在tool box 中有很多
+    控件。我们可以直接拖动使用
+    2) 当我们组装好控件后，可以右键选中property 去修改我们所选择控件的属性
+    3) 并且最好将所有的控件的名字进行重新的设置，做到见到名字就可以知道意思
+    4) 所有的button 控件可以通知程序产生一个事件，以至于我们程序作出响应
+   
+   
+  3) WPF: 可以让我们的设计师进入控件的设计（下方有类html的代码）
+    1) 例如我们需要渐变色的画布，我们就可以直接点击我们的窗体，然后点击Brush来进行画布的更改
+    2) 同样的我们可以加入文本框组件和按钮组件在进行事件的添加
+  
+  4) ASP.NET web Form:
+    就相当于写html并且将html上传到网站上十分的方便
+   
+  5) ASP.NET MVC （model-view-controller）:
+    APS.NET 的升级版
