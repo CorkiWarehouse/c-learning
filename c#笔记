@@ -46,4 +46,16 @@
     就相当于写html并且将html上传到网站上十分的方便
    
   5) ASP.NET MVC （model-view-controller）:
-    APS.NET 的升级版
+    APS.NET 的升级版 我们要先创建controller 然后再创建 view 层的展示页面
+    
+  6) windows store
+  
+  7) windows phone
+    我们甚至可以直接放在手机上
+  
+  8) Cloud (Windows Azure)
+  
+  9) Work Flow
+  
+  10) WCF
+    
